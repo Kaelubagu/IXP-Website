@@ -20,6 +20,12 @@ module.exports = {
         'contain': 'contain',
         '50%': '50%',
         '16': '4rem',
+      },
+      dropShadow: {
+        glow: [
+          "0 0px 20px rgba(255,255, 255, 0.45)",
+          "0 0px 65px rgba(255, 255,255, 0.4)"
+        ]
       }
     }
   },
