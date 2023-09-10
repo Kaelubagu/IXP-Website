@@ -35,7 +35,7 @@ export default function Home() {
 
             <div class="flex-1 flex items-center ">
               <div class="text-center mx-auto">
-                <h1 class="pb-5 text-5xl font-semibold text-white hover:text-green-500 transition-colors, transition duration-500 ease-in-out">The Alternative Fraternity.</h1>
+                <h1 class="pb-5 text-4xl font-semibold text-white hover:text-green-500 transition-colors, transition duration-500 ease-in-out">The Alternative Fraternity.</h1>
               </div>
             </div>
 
