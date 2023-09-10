@@ -24,16 +24,6 @@ export default function Alumni() {
               </div>
             </nav>
 
-
-                <span class="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative">
-                    <div class="flex flex-wrap justify-center ">
-                        <div class="mx-auto px-4">
-                            <img src="/IMG_3170.jpg" class="shadow rounded max-w-full h-auto align-middle border-none" />
-                        </div>
-                    </div>
-                </span>
-
-
           </section>
 
 

@@ -21,7 +21,7 @@ export default function Home() {
             <nav class="sticky top-10 mx-auto bg-black backdrop-filter backdrop-blur-md bg-opacity-30 border border-white ">
               <div class="max-w-5xl mx-auto px-6">
                 <div class="flex items-center justify-between h-16">
-                  <span class="text-2xl text-white hover:text-green-500 transition-colors, transition duration-500 ease-in-out font-semibold "><a href="/">Iota Chi Rho</a></span>
+                  <span class="text-2xl text-white hover:text-green-500 transition-colors, transition duration-500 ease-in-out font-semibold pt--1"><a href="/">IXP//</a></span>
                   <div class="flex space-x-4 text-white pl-10">
                     <a href="#About">About</a>
                     <a href="#Members">Members</a>
@@ -52,19 +52,20 @@ export default function Home() {
               {/*cards */}
 
 
-              <div class="p-3 hover:scale-105 transition-all ease-in-out duration-300 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+              <div class="p-3 scale-110 transition-all ease-in-out duration-300 max-w-md mx-auto bg-black rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                   <div class="md:flex ">
                     <div class="md:shrink-0">
-                      <img src="DSCF7078.jpg" class="h-48 w-full object-cover md:h-full md:w-48 rounded-lg mx-auto shadow-lg shadow-green-300"/>
+                      <img src="DSCF7078.jpg" class="h-48 w-full object-cover md:h-full md:w-48 rounded-lg mx-auto"/>
                     </div>
                     <div class="p-8">
-                      <div class="uppercase tracking-wide text-sm text-green-500 font-semibold">History</div>
-                      <p class="mt-2 text-slate-500">In a room full of people, we may be the weird ones, but we have a story to tell! The entire fraternity constists of many different majors, ranging from Comptuer Science, Theater, Business, and many more. The brotherhood stays strong despite the differences.</p>
+                      <div class="uppercase tracking-wide text-lg text-green-500 font-semibold italic">History</div>
+                      <p class="mt-2 text-white">Iota Chi Rho is a social fraternity founded April 1992 at Trinity University in San Antonio, Texas. We are a unique take on fraternity life, attracting folks with off-beat interests and passions that drive us to lead and participate. Our members come from all majors, and actively participate in a variety of organizations. You can find us serving in leadership roles, producing summer research in the humanities and sciences, or participating in the performing arts on campus.</p>
                     </div>
                   </div>
               </div>
 
-              <section class="p-5"></section>
+              <section class="p-8"></section>
+              
 
               <div class="p-3 hover:scale-105 transition-all ease-in-out duration-300 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                   <div class="md:flex ">
@@ -117,39 +118,54 @@ export default function Home() {
           </div>
             <div class="text-center px-20">
               <ul class="text-white text-md mt-4">
-                <li>Tucker Craft</li>
+                <li>
+                  Andrew Phillips
+                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full">
+                        President
+                  </div>
+                </li>
+                <li>Marcos Morales
+                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full">
+                          Vice-President
+                  </div>
+                </li>
+                <li>Tucker Craft
+                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-yellow-200 text-yellow-700 rounded-full">
+                          Treasurer
+                  </div>
+                </li>
+                <li>Joshua O.D.P
+                <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-red-200 text-red-700 rounded-full">
+                          Standards
+                  </div>
+                </li>
+                <li>Julian Santovena
+                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-red-200 text-red-700 rounded-full">
+                          Standards
+                  </div>
+                </li>
+                <li>Ashwin Ramesh
+                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full">
+                          Alumni
+                  </div>
+                </li>
                 <li>Hues Gibson</li>
                 <li>Richard Grau</li>
                 <li>Max Hightower</li>
                 <li>Nathan Koehler</li>
                 <li>Elliot Schien</li>
-                <li>
-                  Andrew Phillips
-                  <span
-                    class="inline-block whitespace-nowrap rounded-[0.27rem] bg-success-100 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-success-700">
-                    President
-                  </span>
-                </li>
                 <li>Meyer Stellman</li>
                 <li>Jacob "JP" Palmer</li>
+                <li>Jake Borawski</li>
+                <li>Caleb Griffin</li>
+                <li>Henry Hafner</li>
+                <li>Joey Mattingly</li>
+                
+                <li>Echo Stellman</li>
+                <li>Preston Rhea</li>
               </ul>
             </div>
-            <div class="text-center px-20 ">
-              <ul>
-              <li>Jake Borawski</li>
-              <li>Caleb Griffin</li>
-              <li>Henry Hafner</li>
-              <li>Joey Mattingly</li>
-              <li>Marcos Morales</li>
-              <li>Joshua O'Donnell-Paccione</li>
-              <li>Ashwin Ramesh</li>
-              <li>Echo Stellman</li>
-              <li>Preston Rhea</li>
-              <li>Julian Santovena</li>
-              </ul>
 
-
-            </div>
             <div class="text-center pt-5">
               <button class="transition-all px-4 ease-in-out hover:bg-green-500 duration-300 backdrop-filter backdrop-blur-md bg-opacity-30 border border-white">
                 <a href="/Alumni">Alumni Archive</a>
@@ -160,9 +176,11 @@ export default function Home() {
         </section>
           
         {/*Footer*/}
-        <section class="p-20">
+        <section class="p-10">
+
+        <hr class="my-12 h-0.5 border-t-0 bg-white opacity-100 dark:opacity-50" />
           
-            <div class="flex justify-center gap-5 text-gray-600 text-4xl"> {/*social media images*/}
+            <div class="flex justify-center gap-5 text-white text-4xl"> {/*social media images*/}
               <div class="hover:drop-shadow-glow hover:transition-all ease-in-out duration-300">
                 <a href="https://www.instagram.com/iotachirho/">
                   <AiFillInstagram/>
