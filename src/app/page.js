@@ -114,60 +114,173 @@ export default function Home() {
         <a id="Members"></a>
         <section class="bg-black container: mx-auto" >
           <div class="text-center">
-            <h1 class="italic text-center mt-20 text-white text-2xl">Current Active Class:</h1>
+            <h1 class="font-semibold italic text-center mt-20 mb-10 text-white text-2xl">Current Active Class:</h1>
           </div>
-            <div class="text-center px-20">
-              <ul class="text-white text-md mt-4">
-                <li>
-                  Andrew Phillips
-                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full">
-                        President
-                  </div>
-                </li>
-                <li>Marcos Morales
-                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full">
+
+            {/*table of names*/}
+
+            <table class="mx-auto border-separate border-spacing-2 rounded-lg table-auto pl-4">
+              <thead>
+                <tr>
+                  <th>Person</th>
+                  <th>PC</th>
+                  <th>Jobs</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Andrew Phillips</td>
+                  <td class=" text-green-600">Alpha Kappa</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full">
+                          President
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Marcos Morales</td>
+                  <td class=" text-blue-600">Alpha iota</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full">
                           Vice-President
-                  </div>
-                </li>
-                <li>Tucker Craft
-                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-yellow-200 text-yellow-700 rounded-full">
-                          Treasurer
-                  </div>
-                </li>
-                <li>Joshua O.D.P
-                <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-red-200 text-red-700 rounded-full">
-                          Standards
-                  </div>
-                </li>
-                <li>Julian Santovena
-                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-red-200 text-red-700 rounded-full">
-                          Standards
-                  </div>
-                </li>
-                <li>Ashwin Ramesh
-                  <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-blue-200 text-blue-700 rounded-full">
-                          Alumni
-                  </div>
-                </li>
-                <li>Hues Gibson</li>
-                <li>Richard Grau</li>
-                <li>Max Hightower</li>
-                <li>Nathan Koehler</li>
-                <li>Elliot Schien</li>
-                <li>Meyer Stellman</li>
-                <li>Jacob "JP" Palmer</li>
-                <li>Jake Borawski</li>
-                <li>Caleb Griffin</li>
-                <li>Henry Hafner</li>
-                <li>Joey Mattingly</li>
-                
-                <li>Echo Stellman</li>
-                <li>Preston Rhea</li>
-              </ul>
-            </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Tucker Craft</td>
+                  <td class=" text-green-600">Alpha Kappa</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-yellow-200 text-yellow-700 rounded-full">
+                            Treasurer
+                    </div>
+                    <div class="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-yellow-200 text-yellow-700 rounded-full">
+                            Judicial
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Josh O.D.P</td>
+                  <td class=" text-blue-600">Alpha Iota</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-orange-200 text-orange-700 rounded-full">
+                            Standards
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Julian Santovena</td>
+                  <td class=" text-red-600">PC 21</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-orange-200 text-orange-700 rounded-full">
+                            Standards
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Ashwin Ramesh</td>
+                  <td class=" text-blue-600">Alpha Iota</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-red-200 text-red-700 rounded-full">
+                            Alumni
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Hues Gibson</td>
+                  <td class=" text-green-600">Alpha Kappa</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
+                            Secretary
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Richard Grau</td>
+                  <td class=" text-green-600">Alpha Kappa</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
+                            PR
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Max Hightower</td>
+                  <td class=" text-green-600">Alpha Kappa</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
+                            Mixer
+                    </div>
+                    <div class="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
+                            Social Chair
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Joey Mattingly</td>
+                  <td class=" text-blue-600">Alpha Iota</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
+                            Informal Rush
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Echo Stellman</td>
+                  <td class=" text-blue-600">Alpha Iota</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
+                            Historian
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Meyer Stellman</td>
+                  <td class=" text-green-600">Alpha Kappa</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
+                            Scholarship
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Jake Borawski</td>
+                  <td class=" text-blue-600">Alpha Iota</td>
+                  <td>
+                    <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
+                            Service
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nathan Koehler</td>
+                  <td class=" text-green-600">Alpha Kappa</td>
+                </tr>
+                <tr>
+                  <td>Elliot Schien</td>
+                  <td class=" text-green-600">Alpha Kappa</td>
+                </tr>
+                <tr>
+                  <td>Jacob "JP" Palmer</td>
+                  <td class=" text-blue-600">Alpha Iota</td>
+                </tr>
+
+                <tr>
+                  <td>Caleb Griffin</td>
+                  <td class=" text-blue-600">Alpha Iota</td>
+                </tr>
+                <tr>
+                  <td>Henry Hafner</td>
+                  <td class=" text-blue-600">Alpha Iota</td>
+                </tr>
+                <tr>
+                  <td>Preston Rhea</td>
+                  <td class=" text-purple-600">PC20</td>
+                </tr>
+              </tbody>
+            </table>
 
             <div class="text-center pt-5">
-              <button class="transition-all px-4 ease-in-out hover:bg-green-500 duration-300 backdrop-filter backdrop-blur-md bg-opacity-30 border border-white">
+              <button class="mt-10 transition-all px-4 ease-in-out hover:bg-green-500 duration-300 backdrop-filter backdrop-blur-md bg-opacity-30 border border-white">
                 <a href="/Alumni">Alumni Archive</a>
               </button>
             </div>
