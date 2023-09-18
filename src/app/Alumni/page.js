@@ -23,11 +23,10 @@ export default function Alumni() {
                 </div>
               </div>
             </nav>
-
           </section>
-
-
-
+          <section class="bg-black text-center">
+            
+          </section>
           
         {/*Footer*/}
         <section class="p-20">

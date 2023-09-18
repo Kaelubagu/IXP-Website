@@ -9,7 +9,7 @@ import {AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 export default function Home() {
   return (
     <div>
-      <main class=" text-white">
+      <main class=" text-white bg-black">
         {/* Navbar */}
           <section class="flex flex-col items-center min-h-screen backdrop-opacity-50" style={{backgroundImage: `url("/DSCF7076.png")`,
           backgroundRepeat: "no-repeat",
@@ -119,12 +119,13 @@ export default function Home() {
 
             {/*table of names*/}
 
-            <table class="mx-auto border-separate border-spacing-2 rounded-lg table-auto pl-4">
+            <table class="text-center mx-auto border-separate border-spacing-y-3 table-fixed">
+
               <thead>
                 <tr>
                   <th>Person</th>
                   <th>PC</th>
-                  <th>Jobs</th>
+                  <th>Position</th>
                 </tr>
               </thead>
               <tbody>
@@ -151,10 +152,7 @@ export default function Home() {
                   <td class=" text-green-600">Alpha Kappa</td>
                   <td>
                     <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-yellow-200 text-yellow-700 rounded-full">
-                            Treasurer
-                    </div>
-                    <div class="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-yellow-200 text-yellow-700 rounded-full">
-                            Judicial
+                            Treasurer & Judicial
                     </div>
                   </td>
                 </tr>
@@ -208,10 +206,7 @@ export default function Home() {
                   <td class=" text-green-600">Alpha Kappa</td>
                   <td>
                     <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
-                            Mixer
-                    </div>
-                    <div class="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
-                            Social Chair
+                            Mixer & Social Chair
                     </div>
                   </td>
                 </tr>
@@ -289,7 +284,7 @@ export default function Home() {
         </section>
           
         {/*Footer*/}
-        <section class="p-10">
+        <section class="p-10 bg-black">
 
         <hr class="my-12 h-0.5 border-t-0 bg-white opacity-100 dark:opacity-50" />
           
