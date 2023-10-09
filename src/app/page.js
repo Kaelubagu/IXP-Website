@@ -167,7 +167,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td>Julian Santovena</td>
-                  <td class=" text-red-600">PC 21</td>
+                  <td class=" text-red-600">Alpha Zeta</td>
                   <td>
                     <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-orange-200 text-orange-700 rounded-full">
                             Standards
@@ -269,7 +269,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td>Preston Rhea</td>
-                  <td class=" text-purple-600">PC20</td>
+                  <td class=" text-purple-600">Alpha Epsilon</td>
                 </tr>
               </tbody>
             </table>
