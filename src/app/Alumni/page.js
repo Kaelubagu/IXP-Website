@@ -10,26 +10,26 @@ export default function Alumni() {
     <div>
       <main class=" text-white">
         {/* Navbar */}
-          <section class="flex flex-col min-h-screen">
-            <nav class="sticky top-10 mx-auto bg-black backdrop-filter backdrop-blur-md bg-opacity-30 border border-white">
-              <div class="max-w-5xl mx-auto px-6">
-                <div class="flex items-center justify-between h-16">
-                  <span class="text-2xl text-white hover:text-green-500 transition-colors, transition duration-500 ease-in-out font-semibold "><a href="/">IXP//Archives</a></span>
-                  <div class="flex space-x-4 text-white pl-10">
-                    <a href="/#About">About</a>
-                    <a href="/#Members">Members</a>
-                    {/*maybe add a github*/}
-                  </div>
+        <section class="flex flex-col">
+          <nav class="fixed left-0 right-0 bg-black backdrop-filter backdrop-blur-md bg-opacity-30 ">
+            <div class="max-w-5xl mx-auto px-6">
+              <div class="flex items-center justify-between h-16">
+                <span class="text-2xl text-white hover:text-green-500 transition-colors, transition duration-500 ease-in-out font-semibold">
+                  <a href="/">IXP//Archives</a>
+                </span>
+                <div class="flex space-x-4 text-white pl-10">
+                  <a href="/#About">About</a>
+                  <a href="/#Members">Members</a>
                 </div>
               </div>
-            </nav>
-          </section>
+            </div>
+          </nav>
+        </section>
 
-          <section class>
-            <div class="flex justify-center items-center h-screen mx-2">
+
+          <section>
+            <div class="flex justify-center items-center mx-2 mt-24 ">
               <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-        
 
                 <div class="w-full">
                   <h2 class="text-2xl font-bold">Alpha Eta (2022)</h2>
@@ -38,11 +38,11 @@ export default function Alumni() {
                     <li>Josh Anaya</li>
                     <li>Tucker Craft</li>
                     <li>Hues Gibbson</li>
-                    <li>Richard Grau <span class="italic">Informal Rush Chair</span></li>
+                    <li>Richard Grau </li>
                     <li>Max Hightower</li>
-                    <li>William Hinson <span class="italic">Treasurer/Judicial Chair</span></li>
+                    <li>William Hinson </li>
                     <li>Nathan Koehler</li>
-                    <li>Andrew Phillips <span class="italic">Vice President</span></li>
+                    <li>Andrew Phillips </li>
                     <li>Elliot Schein</li>
                     <li>Meyer Stellmen</li>
                   </ul>
@@ -54,7 +54,7 @@ export default function Alumni() {
                     <li>Preston Rhea</li>
                     <li>Moses Horne</li>
                     <li>Gozer Knecht</li>
-                    <li>Vaughn Kohl <span class="italic">Alumni Chair</span></li>
+                    <li>Vaughn Kohl</li>
                     <li>Travis Mewborne</li>
                   </ul>
                 </div>
@@ -65,7 +65,7 @@ export default function Alumni() {
                     <li>Preston Rhea</li>
                     <li>Moses Horne</li>
                     <li>Gozer Knecht</li>
-                    <li>Vaughn Kohl <span class="italic">Alumni Chair</span></li>
+                    <li>Vaughn Kohl</li>
                     <li>Travis Mewborne</li>
                   </ul>
                 </div>
@@ -421,17 +421,17 @@ export default function Alumni() {
                     <li>Matt Wheelock</li>
                   </ul>
                 </div>
-      
               </div>
-              </div>
-            </section>
+            </div>
+          </section>
+          
 
 
           
         {/*Footer*/}
         <section class="p-20">
           
-            <div class="flex justify-center gap-5 text-gray-600 text-4xl"> {/*social media images*/}
+            <div class="flex justify-center gap-5 text-white text-4xl"> {/*social media images*/}
               <div class="hover:drop-shadow-glow hover:transition-all ease-in-out duration-300">
                 <a href="https://www.instagram.com/iotachirho/">
                   <AiFillInstagram/>
@@ -443,10 +443,16 @@ export default function Alumni() {
                 </a>
               </div>
             </div>
+            <div class=" flex justify-center text-white text-sm flex-col text-center mt-5">
+              <div>
+                <small>Programmed by Caleb Aguiar</small>
+              </div>
+              <div>
+                <small>@ Trinity University</small>
+              </div>
+            </div>
           
         </section>
-
-
 
       </main>
     </div>

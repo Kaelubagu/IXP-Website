@@ -300,6 +300,14 @@ export default function Home() {
                 </a>
               </div>
             </div>
+            <div class=" flex justify-center text-white text-sm flex-col text-center mt-5">
+              <div>
+                <small>Programmed by Caleb Aguiar</small>
+              </div>
+              <div>
+                <small>@ Trinity University</small>
+              </div>
+            </div>
           
         </section>
         
