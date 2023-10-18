@@ -237,13 +237,17 @@ export default function Home() {
                   </td>
                 </tr>
                 <tr>
-                  <td>Jake Borawski</td>
+                  <td>Jacob "JP" Palmer</td>
                   <td class=" text-blue-600">Alpha Iota</td>
                   <td>
                     <div class="ml-2 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gray-900 text-gray-400 rounded-full">
                             Service
                     </div>
                   </td>
+                </tr>
+                <tr>
+                  <td>Jake Borawski</td>
+                  <td class=" text-blue-600">Alpha Iota</td>
                 </tr>
                 <tr>
                   <td>Nathan Koehler</td>
@@ -253,10 +257,7 @@ export default function Home() {
                   <td>Elliot Schien</td>
                   <td class=" text-green-600">Alpha Kappa</td>
                 </tr>
-                <tr>
-                  <td>Jacob "JP" Palmer</td>
-                  <td class=" text-blue-600">Alpha Iota</td>
-                </tr>
+
 
                 <tr>
                   <td>Caleb Griffin</td>
