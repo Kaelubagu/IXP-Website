@@ -17,7 +17,7 @@ export default function Home() {
           backgroundSize: "cover"
           }}>
 
-            <nav class="sticky top-10 mx-auto bg-black backdrop-filter backdrop-blur-md bg-opacity-30 border border-white ">
+            <nav class="fixed top-10 mx-auto bg-black backdrop-filter backdrop-blur-md bg-opacity-30 border border-white z-50">
               <div class="max-w-5xl mx-auto px-6">
                 <div class="flex items-center justify-between h-16">
                   <span class="text-2xl text-white hover:text-green-500 transition-colors, transition duration-500 ease-in-out font-semibold pt--1"><a href="/">IXP//</a></span>
