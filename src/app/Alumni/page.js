@@ -11,7 +11,7 @@ export default function Alumni() {
       <main class=" text-white">
         {/* Navbar */}
         <section class="flex flex-col">
-          <nav class="fixed left-0 right-0 bg-black backdrop-filter backdrop-blur-md bg-opacity-30 ">
+          <nav class="fixed top-0 left-0 right-0 bg-black backdrop-filter backdrop-blur-md bg-opacity-30 ">
             <div class="max-w-5xl mx-auto px-6">
               <div class="flex items-center justify-between h-16">
                 <span class="text-2xl text-white hover:text-green-500 transition-colors, transition duration-500 ease-in-out font-semibold">

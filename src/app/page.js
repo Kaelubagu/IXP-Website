@@ -9,13 +9,12 @@ import {AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 export default function Home() {
   return (
     <div>
-      <main class=" text-white bg-black">
+      <main class=" text-white bg-black relative min-h-screen">
         {/* Navbar */}
-          <section class="flex flex-col items-center min-h-screen backdrop-opacity-50" style={{backgroundImage: `url("/DSCF7076.png")`,
+          <section class="flex flex-col items-center min-h-screen bg-opacity-50 bg-fade-in" style={{
+          backgroundImage: `url("/DSCF7076.png")`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundColor: 'rgba(0,0,0, 0.5)',
-          opacity: '5'
+          backgroundSize: "cover"
           }}>
 
             <nav class="sticky top-10 mx-auto bg-black backdrop-filter backdrop-blur-md bg-opacity-30 border border-white ">
