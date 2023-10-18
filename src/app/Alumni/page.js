@@ -10,7 +10,7 @@ export default function Alumni() {
     <div>
       <main class=" text-white">
         {/* Navbar */}
-        <section class="flex flex-col">
+        <section class="flex flex-col bg-fade-in">
           <nav class="fixed top-0 left-0 right-0 bg-black backdrop-filter backdrop-blur-md bg-opacity-30 ">
             <div class="max-w-5xl mx-auto px-6">
               <div class="flex items-center justify-between h-16">
@@ -28,7 +28,7 @@ export default function Alumni() {
 
 
           <section>
-            <div class="flex justify-center items-center mx-2 mt-24 ">
+            <div class="flex justify-center items-center mx-2 mt-24 bg-fade-in">
               <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
                 <div class="w-full">

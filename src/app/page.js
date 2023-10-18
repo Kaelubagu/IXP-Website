@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <main class=" text-white bg-black relative min-h-screen">
         {/* Navbar */}
-          <section class="flex flex-col items-center min-h-screen bg-opacity-50 bg-fade-in" style={{
+          <section class="flex flex-col items-center min-h-screen bg-fade-in" style={{
           backgroundImage: `url("/DSCF7076.png")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover"
