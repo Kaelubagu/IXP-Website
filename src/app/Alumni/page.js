@@ -8,11 +8,11 @@ import {AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 export default function Alumni() {
   return (
     <div>
-      <main class=" text-white">
+      <main class=" text-white bg-black">
         {/* Navbar */}
-        <section class="flex flex-col bg-fade-in">
+        <section class="flex flex-col bg-fade-in bg-black">
           <nav class="fixed top-0 left-0 right-0 bg-black backdrop-filter backdrop-blur-md bg-opacity-30 ">
-            <div class="max-w-5xl mx-auto px-6">
+            <div class="max-w-5xl mx-auto px-6 ">
               <div class="flex items-center justify-between h-16">
                 <span class="text-2xl text-white hover:text-green-500 transition-colors, transition duration-500 ease-in-out font-semibold">
                   <a href="/">IXP//Archives</a>
@@ -27,11 +27,11 @@ export default function Alumni() {
         </section>
 
 
-          <section>
-            <div class="flex justify-center items-center mx-2 mt-24 bg-fade-in">
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <section class="bg-black">
+            <div class="flex justify-center items-center mx-2 mt-24 bg-fade-in bg-black">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8 bg-black">
 
-                <div class="w-full">
+                <div class="w-full bg-black">
                   <h2 class="text-2xl font-bold">Alpha Eta (2022)</h2>
                   <ul class="list-disc ml-6">
                     <li>Kj Ghast</li>
