@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Introduction
+Hi! This is an Alumni website created for the IotaChiRho Fraternity at Trinity University.
+Created with Next.Js and TailwindCss.
+
 ## Getting Started with the IXP Website
 
 First, run the development server:
